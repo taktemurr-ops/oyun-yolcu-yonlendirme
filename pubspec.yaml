@@ -1,0 +1,24 @@
+name: oyun_yolcu_yonlendirme
+description: "Yolcu Yönlendirme – Arcade Klasikleri merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 921df6392b2121ffd438a286673ef9f10c988273
+  arcade_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/arcade-motoru
+      ref: 941f4f4c60a0d23a2f8bd4afeed3e8f0d43e82ef
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
